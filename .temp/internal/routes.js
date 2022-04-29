@@ -4,41 +4,41 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "E:\\WWW\\front end\\vue\\vue3\\blog-vuepress\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "E:\\WWW\\blog\\tl-study.github.io\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-5b95d197",
-    path: "/blogs/category1/2022/javascript-string-function.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5b95d197").then(next)
-    },
-  },
-  {
-    name: "v-16d9622b",
-    path: "/docs/timeLine/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-16d9622b").then(next)
-    },
-  },
-  {
-    path: "/docs/timeLine/index.html",
-    redirect: "/docs/timeLine/"
-  },
-  {
-    name: "v-10a52c52",
+    name: "v-443e13ce",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-10a52c52").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-443e13ce").then(next)
     },
   },
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-2a0b1495",
+    path: "/blogs/category1/2022/javascript-string-function.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2a0b1495").then(next)
+    },
+  },
+  {
+    name: "v-4bc85126",
+    path: "/docs/timeLine/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4bc85126").then(next)
+    },
+  },
+  {
+    path: "/docs/timeLine/index.html",
+    redirect: "/docs/timeLine/"
   },
   {
     name: "v-b1564aac",

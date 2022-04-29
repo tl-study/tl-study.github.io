@@ -8,7 +8,7 @@ export default {
       "scope": "tags",
       "path": "/tag/javascript/",
       "pageKeys": [
-        "v-5b95d197"
+        "v-2a0b1495"
       ]
     }
   },
@@ -18,7 +18,7 @@ export default {
       "scope": "categories",
       "path": "/categories/javascript/",
       "pageKeys": [
-        "v-5b95d197"
+        "v-2a0b1495"
       ]
     }
   },

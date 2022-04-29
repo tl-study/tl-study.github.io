@@ -23,6 +23,48 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "鱼来",
+        "tagline": "一个普普通通的摸鱼人罢了",
+        "heroImageStyle": {
+          "maxWidth": "600px",
+          "width": "100%",
+          "display": "block",
+          "margin": "9rem auto 2rem",
+          "background": "#fff",
+          "borderRadius": "1rem"
+        },
+        "bgImage": "/image/back1.jpeg",
+        "bgImageStyle": {
+          "height": "615px"
+        },
+        "isShowTitleInHome": false,
+        "actionText": "Guide",
+        "actionLink": "/views/other/guide",
+        "features": [
+          {
+            "title": "Yesterday",
+            "details": "开发一款看着开心、写着顺手的 vuepress 博客主题"
+          },
+          {
+            "title": "Today",
+            "details": "希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上"
+          },
+          {
+            "title": "Tomorrow",
+            "details": "希望更多的爱好者能够参与进来，帮助这个主题更好的成长"
+          }
+        ]
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-443e13ce",
+      "path": "/",
+      "lastUpdated": "2022/4/28 下午3:03:30"
+    },
+    {
       "title": "javascript 字符串方法汇总",
       "frontmatter": {
         "title": "javascript 字符串方法汇总",
@@ -36,7 +78,7 @@ export const siteData = {
       },
       "regularPath": "/blogs/category1/2022/javascript-string-function.html",
       "relativePath": "blogs/category1/2022/javascript-string-function.md",
-      "key": "v-5b95d197",
+      "key": "v-2a0b1495",
       "path": "/blogs/category1/2022/javascript-string-function.html",
       "headers": [
         {
@@ -114,7 +156,8 @@ export const siteData = {
           "title": "string.split()",
           "slug": "string-split"
         }
-      ]
+      ],
+      "lastUpdated": "2022/4/28 下午3:03:30"
     },
     {
       "title": "Time Line",
@@ -126,7 +169,7 @@ export const siteData = {
       },
       "regularPath": "/docs/timeLine/",
       "relativePath": "docs/timeLine/README.md",
-      "key": "v-16d9622b",
+      "key": "v-4bc85126",
       "path": "/docs/timeLine/",
       "headers": [
         {
@@ -135,49 +178,7 @@ export const siteData = {
           "slug": "time-line"
         }
       ],
-      "lastUpdated": "2022/4/26 下午5:46:58"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "鱼来",
-        "tagline": "一个普普通通的摸鱼人罢了",
-        "heroImageStyle": {
-          "maxWidth": "600px",
-          "width": "100%",
-          "display": "block",
-          "margin": "9rem auto 2rem",
-          "background": "#fff",
-          "borderRadius": "1rem"
-        },
-        "bgImage": "/image/back1.jpeg",
-        "bgImageStyle": {
-          "height": "615px"
-        },
-        "isShowTitleInHome": false,
-        "actionText": "Guide",
-        "actionLink": "/views/other/guide",
-        "features": [
-          {
-            "title": "Yesterday",
-            "details": "开发一款看着开心、写着顺手的 vuepress 博客主题"
-          },
-          {
-            "title": "Today",
-            "details": "希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上"
-          },
-          {
-            "title": "Tomorrow",
-            "details": "希望更多的爱好者能够参与进来，帮助这个主题更好的成长"
-          }
-        ]
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-10a52c52",
-      "path": "/",
-      "lastUpdated": "2022/4/26 下午5:46:58"
+      "lastUpdated": "2022/4/28 下午3:03:30"
     },
     {
       "frontmatter": {
@@ -281,8 +282,6 @@ export const siteData = {
   "locales": {
     "/": {
       "lang": "zh-CN",
-      "title": "VuePress",
-      "description": "Vue 驱动的静态网站生成器",
       "path": "/"
     }
   }

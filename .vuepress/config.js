@@ -7,8 +7,8 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器'
+      // title: 'vuepress',
+      // description: ''
     },
     // '/en': {
     //   lang: 'en-US', // 将会被设置为 <html> 的 lang 属性

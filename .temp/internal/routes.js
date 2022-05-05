@@ -9,38 +9,6 @@ import GlobalLayout from "E:\\WWW\\blog\\tl-study.github.io\\node_modules\\@vuep
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-443e13ce",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-443e13ce").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
-  },
-  {
-    name: "v-2a0b1495",
-    path: "/blogs/category1/2022/javascript-string-function.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2a0b1495").then(next)
-    },
-  },
-  {
-    name: "v-4bc85126",
-    path: "/docs/timeLine/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4bc85126").then(next)
-    },
-  },
-  {
-    path: "/docs/timeLine/index.html",
-    redirect: "/docs/timeLine/"
-  },
-  {
     name: "v-b1564aac",
     path: "/tag/",
     component: GlobalLayout,
@@ -78,32 +46,6 @@ export const routes = [
   {
     path: "/timeline/index.html",
     redirect: "/timeline/"
-  },
-  {
-    name: "v-07a3e910",
-    path: "/tag/javascript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-07a3e910").then(next)
-    },
-    meta: {"pid":"tags","id":"javascript"}
-  },
-  {
-    path: "/tag/javascript/index.html",
-    redirect: "/tag/javascript/"
-  },
-  {
-    name: "v-417c2884",
-    path: "/categories/javascript/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-417c2884").then(next)
-    },
-    meta: {"pid":"categories","id":"javascript"}
-  },
-  {
-    path: "/categories/javascript/index.html",
-    redirect: "/categories/javascript/"
   },
   {
     path: '*',

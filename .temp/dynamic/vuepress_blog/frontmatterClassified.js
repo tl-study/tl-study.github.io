@@ -3,12 +3,21 @@
  */
 export default {
   "tags": {
-    "javascript": {
-      "key": "javascript",
+    "string": {
+      "key": "string",
       "scope": "tags",
-      "path": "/tag/javascript/",
+      "path": "/tag/string/",
       "pageKeys": [
-        "v-2a0b1495"
+        "v-7c2f8856"
+      ]
+    },
+    "array": {
+      "key": "array",
+      "scope": "tags",
+      "path": "/tag/array/",
+      "pageKeys": [
+        "v-76516a6e",
+        "v-2366d7b6"
       ]
     }
   },
@@ -18,7 +27,9 @@ export default {
       "scope": "categories",
       "path": "/categories/javascript/",
       "pageKeys": [
-        "v-2a0b1495"
+        "v-7c2f8856",
+        "v-76516a6e",
+        "v-2366d7b6"
       ]
     }
   },

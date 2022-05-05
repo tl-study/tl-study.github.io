@@ -7,10 +7,19 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
-  id: "javascript",
+  id: "string",
   filter: filters.tags,
   sorter: sorters.tags,
-  pages: [{"path":"/tag/javascript/","interval":[0,1]}],
+  pages: [{"path":"/tag/string/","interval":[0,1]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "tags",
+  id: "array",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/array/","interval":[0,2]}],
   prevText: "Prev",
   nextText: "Next",
 },
@@ -19,7 +28,7 @@ export default [{
   id: "javascript",
   filter: filters.categories,
   sorter: sorters.categories,
-  pages: [{"path":"/categories/javascript/","interval":[0,1]}],
+  pages: [{"path":"/categories/javascript/","interval":[0,3]}],
   prevText: "Prev",
   nextText: "Next",
 }]
